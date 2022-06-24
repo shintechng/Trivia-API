@@ -1,6 +1,6 @@
 # Trivia API Project
-This Trivia project allows users to play a trivia game and test their general knowledge either for themselves or against friends. The project task was to create and API and unit test for implementing the application allowing it to do the following:
-
+Udacity is invested in creating bonding experiences for its employees and students. A bunch of team members got the idea to hold trivia on a regular basis and created a webpage to manage the trivia app and play the game, but their API experience is limited and still needs to be built out.
+That's where you come in! Help them finish the trivia app so they can start holding trivia and seeing who's the most knowledgeable of the bunch. The application must:
 Display questions - both all questions and by category. Questions should show the question, category and difficulty rating by default and can show/hide the answer.
 Delete questions.
 Add questions and require that they include question and answer text.
@@ -10,13 +10,13 @@ Getting Started
 Installing Dependencies
 Developers should have Python3, pip3, node, and npm installed.
 
-Frontend dependencies
+### Frontend dependencies
 Installing Node and NPM
 This project depends on Nodejs and Node Package Manager (NPM). Find and download Node and npm (which is included) at: https://nodejs.com/en/download.
 
 This project uses NPM to manage software dependencies. NPM Relies on the package.json file located in the frontend directory of this repository. After cloning, open your terminal and run:
 
-npm install
+### npm install
 Backend Dependencies
 Once you have your virtual environment setup and running, install dependencies by navigating to the /backend directory and running:
 
@@ -61,7 +61,7 @@ GET '/categories'
 Fetches a dictionary of all available categories.
 Returns an object with a single key, categories, that contains a object of id: category_string key:value pairs.
 Sample: curl http://127.0.0.1:5000/categories
-{
+ {
   "categories: {
     '1' : "Science",
     '2' : "Art",
